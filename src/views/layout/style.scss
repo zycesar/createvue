@@ -1,0 +1,38 @@
+.contenter {
+  .container_box {
+    .header {
+      background: rgb(75, 95, 110);
+      color: #fff;
+
+      .logo {
+        height: 60px;
+        padding-left: 40px;
+        // line-height: 60px;
+        border-right: 1px solid #fff;
+
+        img {
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          margin-top: 15px;
+        }
+      }
+
+      .tools {
+        text-align: center;
+        line-height: 60px;
+      }
+      .userinfo {
+        text-align: center;
+
+        .userinfo-inner {
+          float: right;
+          color: #fff;
+          img {
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+}

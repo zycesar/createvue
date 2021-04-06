@@ -1,0 +1,17 @@
+.yh_container{
+    background-color: #f5f5f5;
+    position: relative;
+    .page_main{
+      width: 100%;
+      position: absolute;
+      top: 8%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      .error_box{
+        .error_img{
+          width: 35%;
+        }
+      }
+    }
+  }

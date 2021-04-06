@@ -1,0 +1,34 @@
+.contenter {
+  background-image: url('http://esmartpic.oss-cn-hangzhou.aliyuncs.com/TEST001/20200910/20200910115415903f453442eb44eda69b32c59d6ee629_min.jpeg');
+  background-size: 100% 100%;
+  overflow: hidden;
+  width: 100%;
+  // min-height: 935px;
+  height: 100%;
+
+  .login-container {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-clip: padding-box;
+    margin: 180px auto;
+    width: 350px;
+    padding: 35px 35px 15px 35px;
+    background: #fff;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 0 25px #cac6c6;
+
+    .title {
+      margin: 0px auto 40px auto;
+      text-align: center;
+      color: #505458;
+      font-size: 25px;
+      font-family: Helvetica Neue;
+    }
+
+    .remember {
+      margin: 0px 0px 35px 0px;
+    }
+  }
+
+}
